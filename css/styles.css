@@ -225,6 +225,15 @@ body {
   color: var(--slate);
   width: 264px;
 }
+
+.main-list-icon{
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background: var(--cloud);
+  padding: 24px 100px;
+}
+
 /* ##### SECOND SECTION EDN ##### */
 
 /* ##### THIRD/FOURTH SECTION ##### */
@@ -275,7 +284,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--slate);
-  margin: 8px 0 32px 0;
+  margin: 8px 0 8px 0;
+}
+
+.main-list-team-icon{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+margin-bottom: 32px;
 }
 
 /* ##### END MAIN ##### */
